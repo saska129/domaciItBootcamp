@@ -28,6 +28,7 @@ public class Korpa {
 	
 	private double[] cenaSvihAmbalazaSaPopustom (int popust) {
 		double [] cenaAmbalaze = new double [listaAmbalaza.size()];
+		
 		for (int i = 0; i < listaAmbalaza.size(); i++) {
 			cenaAmbalaze[i] = listaAmbalaza.get(i).cenaArtiklaJe() - popust;
 		}

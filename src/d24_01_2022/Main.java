@@ -10,10 +10,10 @@ public class Main {
 		Korpa korpa1 = new Korpa();
 		SuperKartica kartica1 = new SuperKartica(1, "Pera Peric", 20);
 		
-		StaklenaAmbalaza staklo1 = new StaklenaAmbalaza("123-321", "Zajecarsko", 500, 550, 10, true, 100);
-		StaklenaAmbalaza staklo2 = new StaklenaAmbalaza("000-000", "Zajecarsko", 500, 550, 10, false, 100);
-		Tetrapak tetrapak1 = new Tetrapak("456-654", "Mleko", 1000, 1050, false, 100);
-		Tetrapak tetrapak2 = new Tetrapak("000-000", "Mleko", 1000, 1050, true, 100);
+		StaklenaAmbalaza staklo1 = new StaklenaAmbalaza("123-321", "Zajecarsko", 500, 550, 10, true, 200);
+		StaklenaAmbalaza staklo2 = new StaklenaAmbalaza("000-000", "Zajecarsko", 500, 550, 10, false, 200);
+		Tetrapak tetrapak1 = new Tetrapak("456-654", "Mleko", 1000, 1050, false, 200);
+		Tetrapak tetrapak2 = new Tetrapak("000-000", "Mleko", 1000, 1050, true, 200);
 		
 		korpa1.dodajAmbalazu(tetrapak1);
 		korpa1.dodajAmbalazu(tetrapak2);
