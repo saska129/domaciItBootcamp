@@ -56,6 +56,9 @@ public class KatalonTest {
 			Assert.assertEquals(cp.getRemoveMsg(), "Your cart is currently empty.", "Cart not empty");
 		}	
 		
-		
+		@AfterMethod
+		public void closeAll() {
+			driver.quit();
+		}	
 		
 }
